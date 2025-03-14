@@ -60,16 +60,6 @@ curl -X POST http://localhost:8080/api/auth/signin -H "Content-Type: application
 curl -X GET http://localhost:8080/api/protected-endpoint -H "Authorization: Bearer {로그인_응답으로_받은_토큰}"
 ```
 
-PowerShell을 사용하는 경우:
-```powershell
-$body = @{
-    username = "testuser"
-    email = "test@example.com"
-    password = "password123"
-} | ConvertTo-Json
-
-Invoke-RestMethod -Uri "http://localhost:8080/api/auth/signup" -Method Post -Body $body -ContentType "application/json"
-```
 
 ### H2 데이터베이스 콘솔
 
