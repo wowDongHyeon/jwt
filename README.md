@@ -29,7 +29,7 @@ Spring Boot와 JWT를 사용한 인증 시스템 데모 프로젝트입니다.
 
 1. 프로젝트 클론
 ```cmd
-git clone https://github.com/your-username/springboot-jwt-demo.git
+git clone https://github.com/your-username/springboot-jwt-demo.git](https://github.com/wowDongHyeon/jwt.git
 cd springboot-jwt-demo
 ```
 
